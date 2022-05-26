@@ -1,0 +1,31 @@
+div.header {
+    text-align: center;
+    font-size: 42px;
+    color: rgb(146, 11, 167);
+    font-family: Verdana, Tahoma, sans-serif;
+    border: solid 1.5px;
+}
+
+div.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-right: 30px;
+    margin: 10px 15px;
+
+}
+div.products img{
+    height: 185px;
+    width: 225px;
+    margin-top: 15px;
+}
+
+.btn{
+    display: inline-block;
+    background: rgb(16, 137, 16);
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}

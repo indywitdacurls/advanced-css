@@ -1,0 +1,23 @@
+.container {
+    border: 1px solid;
+    max-height: 400px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    height: 50px;
+    width: 50px;
+    display: flex;
+
+}
+
+.item-color {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    background-color: black;
+}
